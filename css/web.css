@@ -3,8 +3,7 @@ body {
   }
   
   .header {
-    background-image: white
-    background-repeat: no-repeat;
+    background-image: white;
     color: black;
   }
   .header ul {
