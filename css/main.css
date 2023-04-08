@@ -1,0 +1,292 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  height: 816px;
+  background-image: url("../img/imgmain/bg-header.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+.header ul {
+  align-items: center;
+}
+.header li + li {
+  padding-left: 40px;
+}
+.header li + li + li + li {
+  padding-left: 70px;
+}
+.header li + li + li + li a {
+  padding: 12px 12px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+}
+.header li a {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navigation {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.box-cont {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container h1 {
+  padding-top: 124px;
+  max-width: 600px;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 130%;
+}
+.container h2 {
+  max-width: 350px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.container .form-box {
+  align-items: center;
+  margin-top: 52px;
+}
+.container .form-box input[type=text] {
+  width: 100%;
+  padding: 12px 68px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: rgba(0, 0, 0, 0.08);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.35);
+}
+.container .form-box .input-form {
+  width: 882px;
+}
+.container .form-box .button-input {
+  margin-left: 24px;
+  padding: 12px 98px;
+  color: rgba(255, 255, 255, 0.9);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  background-color: rgb(92, 98, 236);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.about-course {
+  margin-top: 68px;
+}
+.about-course p {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 48px;
+}
+.about-course p + p {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.33);
+}
+
+.course {
+  margin-top: 64px;
+}
+.course p {
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+
+.block-img-1, .block-img-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.block-img-1 .card-course, .block-img-2 .card-course {
+  width: 370px;
+  height: 370px;
+  border-radius: 40px;
+  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.1));
+  cursor: pointer;
+}
+.block-img-1 p, .block-img-2 p {
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 290px;
+  padding-left: 36px;
+  color: #ffffff;
+}
+.block-img-1 .card-1, .block-img-2 .card-1 {
+  background-image: url("../img/imgmain/analys.png");
+}
+.block-img-1 .card-2, .block-img-2 .card-2 {
+  background-image: url("../img/imgmain/designer.png");
+}
+.block-img-1 .card-3, .block-img-2 .card-3 {
+  background-image: url("../img/imgmain/vr-game.png");
+}
+.block-img-1 .card-4, .block-img-2 .card-4 {
+  background-image: url("../img/imgmain/compilation.png");
+}
+.block-img-1 .card-5, .block-img-2 .card-5 {
+  background-image: url("../img/imgmain/trading.png");
+}
+.block-img-1 .card-6, .block-img-2 .card-6 {
+  background-image: url("../img/imgmain/block-chain.png");
+}
+
+.why-info {
+  max-width: 470px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 140%;
+}
+.why-info span {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.info-why {
+  margin-top: 124px;
+  display: flex;
+}
+.info-why span {
+  font-weight: 700;
+  font-size: 36px;
+}
+.info-why p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  margin-bottom: 72px;
+}
+
+.why-parametrs {
+  display: flex;
+  margin-left: 152px;
+}
+
+.first-block, .second-block {
+  max-width: 290px;
+}
+
+.second-block {
+  margin-left: 64px;
+}
+
+.color-black {
+  background: #171718;
+}
+.color-black .block-conty {
+  padding: 32px 0px;
+}
+.color-black .block-conty .iii {
+  width: 1270px;
+  height: 425px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.color-black .block-conty .iii .cas-form {
+  padding: 88px 0px;
+  display: flex;
+}
+.color-black .block-conty .iii .cas-form .info-form {
+  max-width: 550px;
+}
+.color-black .block-conty .iii .cas-form .info-form p {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0px;
+}
+.color-black .block-conty .iii .cas-form .info-form p + p {
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.45);
+}
+.color-black .block-conty .iii .cas-form .input-form-ci {
+  width: 568px;
+  margin-left: 48px;
+}
+.color-black .block-conty .iii .cas-form .input-form-ci input[type=text] {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: rgba(0, 0, 0, 0.08);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.35);
+}
+.color-black .block-conty .iii .cas-form .input-form-ci .flex {
+  margin-top: 48px;
+}
+.color-black .block-conty .iii .cas-form .input-form-ci .flex input[type=text] + input[type=text] {
+  margin-left: 48px;
+}
+.color-black .block-conty .iii .cas-form .input-form-ci .flex input[type=text] {
+  margin-bottom: 52px;
+}
+.color-black .block-conty .iii .cas-form .input-form-ci a {
+  padding: 16px 78px;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
+  font-size: 22px;
+  background-color: rgb(92, 98, 236);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background: #171718;
+  color: white;
+}
+footer .footer-auto {
+  padding: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  max-width: 418px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .footer-auto .icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+footer .footer-auto a + a {
+  margin-left: 32px;
+}/*# sourceMappingURL=main.css.map */
