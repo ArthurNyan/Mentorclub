@@ -1,78 +1,187 @@
 body {
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .header {
-    background-image: white;
-    color: black;
-  }
-  .header ul {
-    align-items: center;
-  }
-  .header li + li {
-    padding-left: 40px;
-  }
-  .header li + li + li + li {
-    padding-left: 70px;
-  }
-  .header li + li + li + li a {
-    padding: 12px 12px;
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 15px;
-  }
-  .header li a {
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .navigation {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .box-cont {
-    display: flex;
-    align-items: center;
-    padding: 12px 0px;
-  }
-  
-  .container {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  font-family: "Roboto", sans-serif;
+}
 
-  .space-between {
-    justify-content: space-between;
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
+.header {
+  color: black;
+}
+.header ul {
+  align-items: center;
+}
+.header li + li {
+  padding-left: 40px;
+}
+.header li + li + li + li {
+  padding-left: 70px;
+}
+.header li + li + li + li a {
+  padding: 12px 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.header li a {
+  font-size: 16px;
+  cursor: pointer;
+}
 
-  footer {
-    background: #171718;
-    color: white;
-  }
-  footer .footer-auto {
-    padding: 50px;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    max-width: 418px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  footer .footer-auto .icons {
-    display: flex;
-    align-items: center;
-    margin-bottom: 32px;
-  }
-  footer .footer-auto a + a {
-    margin-left: 32px;
-  }/*# sourceMappingURL=main.css.map */
+.navigation {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.box-cont {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+footer {
+  background: #171718;
+  color: white;
+}
+footer .footer-auto {
+  padding: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  max-width: 418px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .footer-auto .icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+footer .footer-auto a + a {
+  margin-left: 32px;
+}
+
+.black-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.container .black-title {
+  padding: 64px;
+}
+
+.sienna {
+  background: rgba(92, 98, 236, 0.15);
+  padding-top: 64px;
+}
+.sienna .container {
+  display: flex;
+  justify-content: space-between;
+}
+.sienna .container .block-typeof {
+  max-width: 290px;
+  max-height: 290px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+.sienna .container .block-typeof span p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 44px 0 24px 0;
+  margin: 0;
+}
+.sienna .container .block-typeof ul {
+  margin-bottom: 36px;
+}
+.sienna .container .block-typeof ul li {
+  font-weight: 200;
+  font-size: 16px;
+  display: flex;
+}
+.sienna .container .block-typeof ul li p {
+  padding-left: 16px;
+  margin: 0;
+}
+.sienna .container .block-typeof ul li + li {
+  padding-top: 20px;
+}
+.sienna .container .block-veb {
+  display: flex;
+  max-width: 852px;
+  max-height: 360px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+.sienna .container .block-veb img {
+  padding: 28px 32px;
+}
+.sienna .container .block-veb .veb-info {
+  padding: 28px 32px;
+}
+.sienna .container .block-veb .veb-info .type-of-veb {
+  display: flex;
+  max-width: 358px;
+  max-height: 32px;
+  background-color: #5C62EC;
+  border-radius: 15px 15px 15px 0px;
+}
+.sienna .container .block-veb .veb-info .type-of-veb span {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 8px 64px;
+}
+.sienna .container .block-veb .veb-info .veb-title {
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0;
+  margin-top: 24px;
+}
+.sienna .container .block-veb .veb-info .veb-info-text {
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.sienna .container .block-veb .veb-info .butt {
+  margin-top: 36px;
+  max-width: 508px;
+  max-height: 38px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+}
+.sienna .container .block-veb .veb-info .butt a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+}
+.sienna .container .block-veb .veb-info .butt a img {
+  padding: 0;
+}
+.sienna .container .block-veb .veb-info .butt a p {
+  display: flex;
+  color: rgba(255, 255, 255, 0.84);
+  margin: 0;
+  margin-left: 12px;
+}/*# sourceMappingURL=web.css.map */
