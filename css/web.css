@@ -22,6 +22,7 @@ body {
 .header li a {
   font-size: 16px;
   cursor: pointer;
+  color: black;
 }
 
 .navigation {
@@ -31,6 +32,7 @@ body {
 .logo {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
+  color: black;
 }
 
 .box-cont {
@@ -51,6 +53,10 @@ body {
 
 .flex {
   display: flex;
+}
+
+.block {
+  display: block;
 }
 
 footer {
@@ -80,6 +86,7 @@ footer .footer-auto a + a {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
+  margin: 0;
 }
 
 .container .black-title {
@@ -88,7 +95,7 @@ footer .footer-auto a + a {
 
 .sienna {
   background: rgba(92, 98, 236, 0.15);
-  padding-top: 64px;
+  padding: 64px 0;
 }
 .sienna .container {
   display: flex;
@@ -132,56 +139,98 @@ footer .footer-auto a + a {
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
 }
-.sienna .container .block-veb img {
+.sienna .container .block-veb .img-1 {
   padding: 28px 32px;
 }
 .sienna .container .block-veb .veb-info {
   padding: 28px 32px;
 }
-.sienna .container .block-veb .veb-info .type-of-veb {
+.sienna .container .block-veb .veb-info .type-of-veb1 {
   display: flex;
   max-width: 358px;
   max-height: 32px;
   background-color: #5C62EC;
   border-radius: 15px 15px 15px 0px;
 }
-.sienna .container .block-veb .veb-info .type-of-veb span {
+.sienna .container .block-veb .veb-info .type-of-veb1 span {
   font-weight: 400;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.9);
   margin: 8px 64px;
 }
-.sienna .container .block-veb .veb-info .veb-title {
+.sienna .container .flex .it-dive {
+  padding: 24px 32px;
+  display: block;
+  max-width: 410px;
+  max-height: 420px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+.sienna .container .flex .it-dive .type-of-veb {
+  display: flex;
+  max-width: 240px;
+  max-height: 32px;
+  background-color: #5C62EC;
+  border-radius: 15px 15px 15px 0px;
+}
+.sienna .container .flex .it-dive .type-of-veb span {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 8px 36px;
+}
+.sienna .container .flex .it-dive .img-2 {
+  margin-top: 18px;
+}
+.sienna .container .flex .it-dive .veb-title {
+  margin-top: 18px;
+}
+
+.veb-title {
   font-weight: 500;
   font-size: 32px;
   margin: 0;
   margin-top: 24px;
 }
-.sienna .container .block-veb .veb-info .veb-info-text {
+
+.veb-info-text {
   margin-top: 60px;
   font-weight: 400;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
-.sienna .container .block-veb .veb-info .butt {
+
+.veb-info-text-sm {
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.butt-g {
   margin-top: 36px;
   max-width: 508px;
   max-height: 38px;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 20px;
 }
-.sienna .container .block-veb .veb-info .butt a {
+.butt-g a {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8px 0;
 }
-.sienna .container .block-veb .veb-info .butt a img {
+.butt-g a img {
   padding: 0;
 }
-.sienna .container .block-veb .veb-info .butt a p {
+.butt-g a p {
   display: flex;
   color: rgba(255, 255, 255, 0.84);
   margin: 0;
   margin-left: 12px;
+}
+
+.m-36 {
+  margin-top: 36px;
 }/*# sourceMappingURL=web.css.map */
