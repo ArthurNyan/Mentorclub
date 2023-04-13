@@ -1,0 +1,117 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  color: black;
+}
+.header ul {
+  align-items: center;
+}
+.header li + li {
+  padding-left: 40px;
+}
+.header li + li + li + li {
+  padding-left: 70px;
+}
+.header li + li + li + li a {
+  padding: 12px 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.header li a {
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+}
+
+.navigation {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.box-cont {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+footer {
+  background: #171718;
+  color: white;
+}
+footer .footer-auto {
+  padding: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  max-width: 418px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .footer-auto .icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+footer .footer-auto a + a {
+  margin-left: 32px;
+}
+
+.black-title-cl-60 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin: 60px;
+  color: #5C62EC;
+}
+
+.black-title-42 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  color: black;
+  margin: 42px;
+}
+
+.light-text-24 {
+  color: black;
+  font-weight: 700;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 24px;
+}
+
+.indigo {
+  color: #5C62EC;
+}
+
+.cl-black {
+  color: black;
+}/*# sourceMappingURL=contacts.css.map */
