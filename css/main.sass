@@ -7,8 +7,9 @@ body
 
 .header
     height: 816px
-    background-image: url("../img/imgmain/bg-header.png")
+    background-image: url("../img/imgmain/bg-header-2.png")
     background-repeat: no-repeat
+    background-position: center
     color: white
 
     ul
@@ -185,19 +186,20 @@ body
         font-weight: 300
         font-size: 20px
         line-height: 100%
-        margin-bottom: 72px
 
 
 .why-parametrs
-    display: flex
-    margin-left: 152px
+    display: block
+    margin-left: 100px
 
 .first-block, .second-block
-    max-width: 290px
-
-.second-block
-    margin-left: 64px
-
+    display: flex
+    justify-content: space-between
+    margin-bottom: 72px
+    div + div
+        margin-left: 24px
+    div
+        max-width: 290px
 .color-black
     background: #171718
     .block-conty
