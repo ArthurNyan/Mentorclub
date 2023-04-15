@@ -15,23 +15,54 @@ body
     ul
         align-items: center
 
-    li + li
-        padding-left: 40px
+        li + li
+            padding-left: 40px
 
+            
+        li+li+li+li
+            padding-left: 70px
+
+        .button-nav
+            padding: 12px 12px
+            border: 0
+            border-radius: 15px
+            background-color: rgba(255, 255, 255, 0.2)
+            transition: background-color 0.2s
+
+        .button-nav:hover 
+            background-color: rgba(255, 255, 255, 0.3)
         
-    li+li+li+li
-        padding-left: 70px
+        li 
+            a
+                font-size: 16px
+                cursor: pointer
+                color: white
+                position: relative
+                transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1)
+                transition-duration: 400ms
+                transition-property: color
 
-    li+li+li+li a
-        padding: 12px 12px
-        background: rgba(255, 255, 255, 0.15)
-        border-radius: 15px
-        
-    li a
-        font-size: 16px
-        cursor: pointer
-        color: white
+            a:after 
+                content: ""
+                pointer-events: none
+                bottom: -2px
+                left: 50%
+                position: absolute
+                width: 0%
+                height: 2px
+                background-color: #fff
+                transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1)
+                transition-duration: 400ms
+                transition-property: width, left
 
+            a:focus,
+            a:hover 
+                color: #fff
+            
+            a:focus:after,
+            a:hover:after 
+                width: 100%
+                left: 0%
 
 .navigation
     border-bottom: 1px solid rgba(255, 255, 255, 0.75)
@@ -43,7 +74,7 @@ body
 .box-cont
     display: flex
     align-items: center
-    padding: 12px 0px 
+    padding: 18px 0px 
 
 
 .container
@@ -284,3 +315,18 @@ footer
             margin-bottom: 32px
         a + a
             margin-left: 32px
+
+
+a:after 
+    content: ""
+    pointer-events: none
+    bottom: -2px
+    left: 50%
+    position: absolute
+    width: 0%
+    height: 2px
+    background-color: #fff
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1)
+    transition-duration: 400ms
+    transition-property: width, left
+

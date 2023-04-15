@@ -12,22 +12,54 @@ body
     ul
         align-items: center
 
-    li + li
-        padding-left: 40px
+        li + li
+            padding-left: 40px
 
-        
-    li+li+li+li
-        padding-left: 70px
+            
+        li+li+li+li
+            padding-left: 70px
 
-    li+li+li+li a
-        padding: 12px 12px
-        background: rgba(0, 0, 0, 0.15)
-        border-radius: 15px
+        .button-nav
+            padding: 12px 12px
+            border: 0
+            border-radius: 15px
+            background-color: rgba(0, 0, 0, 0.2)
+            transition: background-color 0.5s
+
+        .button-nav:hover 
+            background-color: rgba(0, 0, 0, 0.3)
         
-    li a
-        font-size: 16px
-        cursor: pointer
-        color: black
+        li 
+            a
+                font-size: 16px
+                cursor: pointer
+                color: black
+                position: relative
+                transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1)
+                transition-duration: 400ms
+                transition-property: color
+
+            a:after 
+                content: ""
+                pointer-events: none
+                bottom: -2px
+                left: 50%
+                position: absolute
+                width: 0%
+                height: 2px
+                background-color: black
+                transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1)
+                transition-duration: 400ms
+                transition-property: width, left
+
+            a:focus,
+            a:hover 
+                color: #000000
+            
+            a:focus:after,
+            a:hover:after 
+                width: 100%
+                left: 0%
 
 
 .navigation
@@ -41,7 +73,7 @@ body
 .box-cont
     display: flex
     align-items: center
-    padding: 12px 0px 
+    padding: 18px 0px 
 
 .container
     max-width: 1170px
