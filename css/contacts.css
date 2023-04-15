@@ -79,6 +79,34 @@ body {
   margin-right: auto;
   text-align: center;
 }
+.container a {
+  position: relative;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+.container a:after {
+  content: "";
+  pointer-events: none;
+  bottom: -4px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #5C62EC;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 600ms;
+  transition-property: width, left;
+}
+.container a:focus,
+.container a:hover {
+  color: #5C62EC;
+}
+.container a:focus:after,
+.container a:hover:after {
+  width: 100%;
+  left: 0%;
+}
 
 .space-between {
   justify-content: space-between;

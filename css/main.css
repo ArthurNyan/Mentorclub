@@ -123,6 +123,13 @@ body {
   background-color: rgb(92, 98, 236);
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: background-color 0.2s;
+  -webkit-transition: all 0.5s;
+}
+.container .form-box .button-input:hover {
+  background-color: rgba(92, 98, 236, 0.9);
+  box-shadow: 0 0 10px rgba(92, 98, 236, 0.5);
+  transition: box-shadow 0.2s;
 }
 
 .space-between {
@@ -304,6 +311,13 @@ body {
   background-color: rgb(92, 98, 236);
   border-radius: 20px;
   cursor: pointer;
+  transition: background-color 0.2s;
+  -webkit-transition: all 0.5s;
+}
+.color-black .block-conty .iii .cas-form .input-form-ci a:hover {
+  background-color: rgba(92, 98, 236, 0.9);
+  box-shadow: 0 0 10px rgba(92, 98, 236, 0.5);
+  transition: box-shadow 0.2s;
 }
 
 footer {
@@ -326,18 +340,4 @@ footer .footer-auto .icons {
 }
 footer .footer-auto a + a {
   margin-left: 32px;
-}
-
-a:after {
-  content: "";
-  pointer-events: none;
-  bottom: -2px;
-  left: 50%;
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  background-color: #fff;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: width, left;
 }/*# sourceMappingURL=main.css.map */

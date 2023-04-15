@@ -84,6 +84,34 @@ body
     margin-left: auto
     margin-right: auto
     text-align: center
+    a
+
+        position: relative
+        transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1)
+        transition-duration: 400ms
+        transition-property: color
+
+    a:after 
+        content: ""
+        pointer-events: none
+        bottom: -4px
+        left: 50%
+        position: absolute
+        width: 0%
+        height: 2px
+        background-color: #5C62EC
+        transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1)
+        transition-duration: 600ms
+        transition-property: width, left
+
+    a:focus,
+    a:hover 
+        color: #5C62EC
+    
+    a:focus:after,
+    a:hover:after 
+        width: 100%
+        left: 0%
     
 
 .space-between
